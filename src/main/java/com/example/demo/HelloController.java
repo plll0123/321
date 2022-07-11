@@ -13,6 +13,9 @@ public class HelloController {
         return "helloworld";
     }
 
+    private String testPrivateMehotd() {
+     return "tesT";
+    }
     @RequestMapping
     public String controllerhello() {
         return service.newHello() + hello123();
